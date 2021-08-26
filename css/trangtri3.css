@@ -1,0 +1,14 @@
+body{
+    background-color: brown;
+}
+h3
+{
+    color: red;
+}
+fieldset{
+    background-color: rgb(61, 201, 201);
+}
+td{
+    color: chocolate;
+    text-align: center;
+}

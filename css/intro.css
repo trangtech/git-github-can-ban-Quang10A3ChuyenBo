@@ -1,0 +1,74 @@
+html
+{
+    background-color: greenyellow;
+}
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 87%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.container {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #617140;
+}
+
+header h1 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+
+header p {
+	margin: 0;
+}
+.ndchinh {
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+.tieusu {
+	width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+    font-size: large;
+}
+
+.main {
+	width: 34%;
+	float: left;
+	background-color: #e5e9dc;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	font-size: 90%;
+}
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
